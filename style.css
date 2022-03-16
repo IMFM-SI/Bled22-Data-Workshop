@@ -1,6 +1,5 @@
 * {
   word-break: break-word;
-  box-sizing: border-box;
 }
 .fakeImg {
   width: 100%;
@@ -36,7 +35,17 @@ body {
 .col-sm-6 {
   padding: 0;
 }
-@media only screen and (max-width: 575px) {
+.sticky-block {
+    display: table-row;
+    height: 1px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media only screen and (max-width: 767px) {
   .hero-text {
     display: block;
   }
