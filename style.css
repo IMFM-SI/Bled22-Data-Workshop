@@ -1,6 +1,6 @@
 * {
   word-break: break-word;
-  border-box: border-box;
+  box-sizing: border-box;
 }
 .fakeImg {
   width: 100%;
@@ -40,6 +40,6 @@ body {
     padding: 20px 50px 0 50px;
   }
   body {
-    padding: 20px 0 0 0;
+    padding: 0;
   }
 }
