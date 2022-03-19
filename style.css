@@ -7,7 +7,7 @@
   background: var(--bs-dark);
 }
 body {
-  padding: 20px 50px 0 50px;
+  padding: 20px 20px 0 20px;
 }
 .besedilo {
   padding: 20px 0 0 0;
@@ -32,9 +32,6 @@ body {
 .hero-container {
   position: relative;
 }
-.col-sm-6 {
-  padding: 0;
-}
 .sticky-block {
     display: table-row;
     height: 1px;
@@ -57,6 +54,9 @@ body {
     text-align: center;
   }
   body {
+    padding: 0;
+  }
+  .col-md-5 {
     padding: 0;
   }
 }
