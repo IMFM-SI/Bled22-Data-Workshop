@@ -60,3 +60,9 @@ body {
     padding: 0;
   }
 }
+
+.design {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.5em;
+  margin-top: 2em;
+}
